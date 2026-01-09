@@ -41,9 +41,9 @@ $$
 
 Podemos representá-lo na forma matricial como:
 
-\begin{equation}
+$$
 \mathbf{Y} = \mathbf{F} \boldsymbol{\alpha}
-\end{equation}
+$$
 
 Onde:
 
