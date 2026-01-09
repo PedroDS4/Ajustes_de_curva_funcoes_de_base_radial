@@ -49,26 +49,37 @@ Podemos representá-lo na forma matricial como:
 
 Onde:
 
-* $\mathbf{F} = \begin{bmatrix}
+$$
+$\mathbf{F} = \begin{bmatrix}
 f_1(x_1) & f_1(x_1) & \cdots & f_M(x_1) \\
 f_1(x_2) & f_1(x_2) & \cdots & f_M(x_2) \\
 \vdots & \vdots & \ddots & \vdots \\
 f_1(x_n) & f_1(x_n) & \cdots & f_M(x_n)
-\end{bmatrix}$ é a matriz das funções.
+\end{bmatrix}$
+$$
 
-* $\boldsymbol{\alpha} = \begin{bmatrix}
+é a matriz das funções de base.
+
+$$
+$\boldsymbol{\alpha} = \begin{bmatrix}
 \alpha_1 \\
 \alpha_2 \\
 \vdots \\
 \alpha_M
-\end{bmatrix}$ é o vetor de coeficientes.
+\end{bmatrix}$
+$$
+é o vetor de coeficientes.
 
-* $\mathbf{Y} = \begin{bmatrix}
+$$
+$\mathbf{Y} = \begin{bmatrix}
 y_1 \\
 y_2 \\
 \vdots \\
 y_n
-\end{bmatrix}$ é o vetor de variáveis dependentes.
+\end{bmatrix}$ 
+$$
+
+é o vetor de variáveis dependentes.
 
 
 e agora nossa função objetivo se torna
