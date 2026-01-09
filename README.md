@@ -31,14 +31,12 @@ $$
 Podemos ainda escrever como um sistema de equações lineares, e assim temos
 
 $$
-\begin{equation}
-\left\{ \begin{aligned}
+\begin{cases}
 y_1 &= \sum_{j = 0}^{M} \alpha_j f_j(x_1) = \alpha_1 f_1(x_1) + \alpha_2 f_2(x_1) + ... + \alpha_n f_n(x_1)\\
 y_2 &= \sum_{j = 0}^{M} \alpha_j f_j(x_2)= \alpha_1 f_1(x_2) + \alpha_2 f_2(x_2) +  ... + \alpha_n f_n(x_2) \\
 &\vdots \\
 y_n &= \sum_{j = 0}^{M} \alpha_j f_j(x_n) = \alpha_1 f_1(x_3) + \alpha_2 f_2(x_3) + ... + \alpha_n f_n(x_3)
-\end{aligned} \right.
-\end{equation}
+\end{cases}
 $$
 
 Podemos representá-lo na forma matricial como:
